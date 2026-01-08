@@ -83,9 +83,33 @@ body {
 }
 
 .third.section {
-    height: 180px;
-    background: grey;
-    color: black;
+    height: 350px;
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textcontainer {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    flex-flow: column ;
+
+}
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.information {
+    display: flex;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .fourth.section {

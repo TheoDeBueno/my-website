@@ -1,4 +1,100 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first.section {
+    height: 500px;
+    background: #1f2937;
+    color:azure;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 48px;
+    margin-bottom: 48px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    width :400px;
+    flex-flow: row wrap;
+}
+
+.button {
+    display: flex;
+}
+
+.image {
+    display: flex;
+    width: 500px;
+    height: 150px;
+    background: grey;
+}
+
+.right-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.text {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first.button {
+    background: #3882f6;
+    border-radius: 12px;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.second.section {
+    height: 200px;
+    background: white;
+}
+
+.third.section {
+    height: 180px;
+    background: grey;
+    color: black;
+}
+
+.fourth.section {
+    height: 150px;
+}
+
+.footer {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
